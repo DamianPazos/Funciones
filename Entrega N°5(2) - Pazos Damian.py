@@ -10,5 +10,3 @@ def area_circulo(radio):
     return area_total # Retorno el area total del circulo
 
 print("El area total del circulo es", area_circulo(5)) # Imprimo el valor pedido
-
-
