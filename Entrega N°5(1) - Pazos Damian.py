@@ -10,10 +10,10 @@ def area_rectangulo(base,altura):
 
 # Inicio funcion para convertir los datos a numeros
 def convertir(dato):
-	while dato.isnumeric() == False: 
+	while dato.isnumeric() == False: # Mientras que el dato del numero no sea un numero
 		print("¡Lo ingresado no es un número!")
-		dato = input("Ingrese el dato nuevamente: ")
-	dato = int(dato)
+		dato = input("Ingrese el dato nuevamente: ") # Se pide nuevamente el dato
+	dato = int(dato) # Se convierte el dato 
 	return dato
 
 # Ingreso el numero el cual va ir en la funcion
