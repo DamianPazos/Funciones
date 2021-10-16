@@ -26,19 +26,22 @@ def convertir(dato):
 	dato = int(dato) # Se convierte el dato 
 	return dato
 
-'''while True:
-    print("Desea ingresar un numero:\n 1.Si\n 2.No")
+while True:
+    print("Desea ingresar un numero:\n1.Si\n2.No")
     opcion = int(input())
     if opcion == 1:
         numero_a_ingresar = input("Ingrese el numero: ")
         numero_a_ingresar = convertir(numero_a_ingresar)
+        lista_ingresada.append(numero_a_ingresar)
     elif opcion == 2:
-        separar(lista_ingresada)
-        print(lista_ingresada)
-        print("La lista impar es: {}\nLa lista par es: {}".format(lista_ingresada[0],lista_ingresada[1]))
+        listas_devueltas = separar(lista_ingresada)
+        print(listas_devueltas)
+        print("La lista impar es: {}\nLa lista par es: {}".format(listas_devueltas[0],listas_devueltas[1]))
         break
     else:
-        print("Ingreso opcion incorrecta")'''
+        print("Ingreso opcion incorrecta")
+
+
 
 
 
